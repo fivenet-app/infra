@@ -1,0 +1,46 @@
+{
+    "extends": [
+        "@commitlint/config-conventional"
+    ],
+    "rules": {
+        "type-enum": [
+            2,
+            "always",
+            [
+                "auth",
+                "build",
+                "chore",
+                "ci",
+                "citizenstore",
+                "completor",
+                "db",
+                "dmv",
+                "docs",
+                "docstore",
+                "feat",
+                "fix",
+                "gen",
+                "grpc",
+                "helm",
+                "jobs",
+                "lang",
+                "livemap",
+                "livemapper",
+                "locale",
+                "notificator",
+                "perf",
+                "proto",
+                "query",
+                "rbac",
+                "rector",
+                "refactor",
+                "revert",
+                "services",
+                "sql",
+                "style",
+                "test",
+                "version"
+            ]
+        ]
+    }
+}
