@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@iconify-json/mdi": "1.2.3",
-    "@iconify-json/simple-icons": "1.2.22",
+    "@iconify-json/simple-icons": "1.2.23",
     "@nuxt/ui-pro": "1.7.0"
   },
   "devDependencies": {
@@ -26,5 +26,5 @@
     "nuxt-single-html": "0.1.0",
     "vue-tsc": "2.2.0"
   },
-  "packageManager": "pnpm@9.15.4"
+  "packageManager": "pnpm@9.15.5"
 }
