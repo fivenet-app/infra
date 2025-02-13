@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # Page Build
-FROM docker.io/library/node:22.13.1-alpine3.20 AS nodebuilder
+FROM docker.io/library/node:22.14.0-alpine3.20 AS nodebuilder
 ARG NUXT_UI_PRO_LICENSE
 WORKDIR /app
 COPY . ./
