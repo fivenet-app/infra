@@ -24,7 +24,7 @@
     "eslint": "9.20.1",
     "nuxt": "3.15.4",
     "nuxt-single-html": "0.1.0",
-    "vue-tsc": "2.2.0"
+    "vue-tsc": "2.2.2"
   },
   "packageManager": "pnpm@9.15.5"
 }
