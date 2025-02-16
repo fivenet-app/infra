@@ -26,5 +26,5 @@
     "nuxt-single-html": "0.1.0",
     "vue-tsc": "2.2.2"
   },
-  "packageManager": "pnpm@9.15.5"
+  "packageManager": "pnpm@10.4.1"
 }
