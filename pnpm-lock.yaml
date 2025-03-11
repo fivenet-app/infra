@@ -37,8 +37,8 @@ importers:
         specifier: 3.16.0
         version: 3.16.0(@parcel/watcher@2.4.1)(@types/node@22.5.0)(db0@0.3.1)(eslint@9.22.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.34.9)(terser@5.31.6)(typescript@5.6.3)(vite@6.2.1(@types/node@22.5.0)(jiti@2.4.2)(terser@5.31.6)(yaml@2.7.0))(vue-tsc@2.2.8(typescript@5.6.3))(yaml@2.7.0)
       nuxt-single-html:
-        specifier: 0.1.0
-        version: 0.1.0(magicast@0.3.5)(rollup@4.34.9)
+        specifier: 0.2.0
+        version: 0.2.0(magicast@0.3.5)
       vue-tsc:
         specifier: 2.2.8
         version: 2.2.8(typescript@5.6.3)
@@ -3080,8 +3080,8 @@ packages:
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
 
-  nuxt-single-html@0.1.0:
-    resolution: {integrity: sha512-vo2x4zJV9y5LsIqSHwEsJIN1pTzcT7hNa96xKFCnFGK0Z600fVLHGLl/eBnMwcWl/NH9JxdYiMUPeFtuA8ZPzw==}
+  nuxt-single-html@0.2.0:
+    resolution: {integrity: sha512-JD3dshIO2wVh7yOkH2j2wsldQ0tZ1M1I1ZuEiR4RW5xaLaAu+TrCbaNoDQ4ZIWjIL8olKD2cdGAN9f+hts5s3A==}
 
   nuxt@3.16.0:
     resolution: {integrity: sha512-4j2tuHo+kcComQ1WrCD+i1w3UFOHrcnNH30cwiEY/WZZlBZOlC6DtUm6aBjhfpBFaMYsF4PbyKsNW+7FHwckHA==}
@@ -8303,13 +8303,11 @@ snapshots:
     dependencies:
       boolbase: 1.0.0
 
-  nuxt-single-html@0.1.0(magicast@0.3.5)(rollup@4.34.9):
+  nuxt-single-html@0.2.0(magicast@0.3.5):
     dependencies:
-      '@nuxt/kit': 3.15.4(magicast@0.3.5)(rollup@4.34.9)
+      '@nuxt/kit': 3.16.0(magicast@0.3.5)
     transitivePeerDependencies:
       - magicast
-      - rollup
-      - supports-color
 
   nuxt@3.16.0(@parcel/watcher@2.4.1)(@types/node@22.5.0)(db0@0.3.1)(eslint@9.22.0(jiti@2.4.2))(ioredis@5.6.0)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.34.9)(terser@5.31.6)(typescript@5.6.3)(vite@6.2.1(@types/node@22.5.0)(jiti@2.4.2)(terser@5.31.6)(yaml@2.7.0))(vue-tsc@2.2.8(typescript@5.6.3))(yaml@2.7.0):
     dependencies:
