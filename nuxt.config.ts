@@ -39,4 +39,10 @@ export default defineNuxtConfig({
             comments: false,
         },
     },
+
+    nitro: {
+        prerender: {
+          routes: ['/', '/503', '/404'],
+        },
+      },
 });
