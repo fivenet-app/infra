@@ -24,4 +24,8 @@ export default <Partial<Config>>{
             },
         },
     },
+    safelist: [
+        'mx-auto',
+        'max-w-screen-md',
+    ],
 };

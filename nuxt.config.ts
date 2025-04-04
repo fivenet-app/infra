@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 
     extends: ['@nuxt/ui-pro'],
 
-    modules: ['@nuxt/ui', '@nuxt/fonts', '@nuxtjs/fontaine', '@nuxtjs/fontaine', 'nuxt-single-html'],
+    modules: ['@nuxt/ui', '@nuxt/fonts', '@nuxtjs/fontaine', '@nuxtjs/fontaine', 'nuxt-single-html', '@nuxtjs/mdc'],
 
     future: {
         compatibilityVersion: 4,
