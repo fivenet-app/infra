@@ -14,6 +14,6 @@ RUN rm -rf ./.nuxt/ && \
 
 # Final Image
 FROM docker.io/nginxinc/nginx-unprivileged:1.27.3-alpine3.20
-COPY --from=nodebuilder /app/.output/public /usr/share/nginx/html
+COPY --from=nodebuilder /app/.output/public/ /usr/share/nginx/html
 
 EXPOSE 8080/tcp
