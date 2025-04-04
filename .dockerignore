@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+target/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.direnv/
+
+# Golang relevant files
+vendor/
+__debug_bin*
+/fivenet
+
+/config.yaml
+/config.*.yaml
+!/config.example.yaml
+/.env
+/*.sql
+
+# Localhost certs
+localhost.*
+
+# Repo checkouts
+.build/
+.build/gdal2tiles-leaflet/
+.build/validate-*/
+
+# Nuxt
+.nuxt
+.nitro
+.cache
+.output
+.env
+
+# FiveNet
+.data/
