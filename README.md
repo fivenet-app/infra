@@ -1,5 +1,7 @@
 # FiveNet Infra Sites
 
+Used for, e.g., 503 error pages, maintenance pages, etc., in FiveNet cloud clusters.
+
 Built with:
 
 [![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt.js&labelColor=020420)](https://ui.nuxt.com/pro) [![Github Pages](https://img.shields.io/badge/Github%20Pages-121013?logo=github&logoColor=white)](#)
@@ -21,3 +23,7 @@ Start the development server on `http://localhost:3000`:
 ```bash
 pnpm run dev
 ```
+
+## License
+
+Code licensed under MIT license, see [LICENSE](LICENSE).
