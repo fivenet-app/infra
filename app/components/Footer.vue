@@ -1,9 +1,18 @@
 <script lang="ts" setup>
 const year = new Date().getFullYear();
+
+const items: NavigationMenuItem[] = [
+    {
+        label: "FiveNet Homepage",
+        href: "https://fivenet.app/",
+        external: true,
+        icon: "i-mdi-home",
+    },
+];
 </script>
 
 <template>
-    <UFooter :links="[]">
+    <UFooter :items="items">
         <template #left>
             <img
                 src="/favicon.png"
@@ -14,6 +23,8 @@ const year = new Date().getFullYear();
 
             <span>Copyright © {{ year }} Galexrt All rights reserved.</span>
         </template>
+
+        <UNavigationMenu :items="items" variant="link" />
 
         <template #right>
             <UButton
