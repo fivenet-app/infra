@@ -10,16 +10,20 @@ const status = 503;
 </script>
 
 <template>
-    <UPageError
-        :error="undefined"
-        :status="status"
-        name="Not Found or Service Unavailable"
-        :message="message"
-        :clear-button="{
-            label: 'Go to FiveNet Homepage',
-            to: 'https://fivenet.app/',
+    <UError
+        :error="{
+            statusCode: status,
+            statusMessage: 'Not Found or Service Unavailable',
+            message: message,
+        }"
+        redirect="https://fivenet.app/"
+        :clear="{
+            color: 'neutral',
+            size: 'xl',
+            icon: 'i-mdi-home',
+            label: 'Go to the FiveNet Homepage',
             external: true,
         }"
-        :ui="{ message: 'mx-auto max-w-screen-md' }"
+        :ui="{ root: 'mx-auto max-w-(--breakpoint-md)' }"
     />
 </template>

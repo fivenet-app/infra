@@ -4,9 +4,7 @@ export default defineNuxtConfig({
 
     ssr: false,
 
-    extends: ['@nuxt/ui-pro'],
-
-    modules: ['@nuxt/ui', '@nuxt/fonts', '@nuxtjs/fontaine', '@nuxtjs/fontaine', 'nuxt-single-html', '@nuxtjs/mdc'],
+    modules: ['@nuxt/ui-pro', '@nuxt/fonts', '@nuxtjs/fontaine', '@nuxtjs/fontaine', 'nuxt-single-html', '@nuxtjs/mdc'],
 
     future: {
         compatibilityVersion: 4,
@@ -14,9 +12,8 @@ export default defineNuxtConfig({
 
     compatibilityDate: '2024-07-05',
 
-    ui: {
-        safelistColors: ['primary', 'malibu'],
-    },
+    css: ['~/assets/css/main.css'],
+
     icon: {
         collections: ['mdi', 'simple-icons'],
         serverBundle: 'local',

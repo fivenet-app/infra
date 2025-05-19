@@ -30,7 +30,7 @@ const router = useRouter();
         <UMain>
             <UContainer>
                 <UPage>
-                    <UPageError
+                    <UError
                         :error="error"
                         :clear-button="{
                             label: 'Go back',

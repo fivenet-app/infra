@@ -14,7 +14,7 @@
   "dependencies": {
     "@iconify-json/mdi": "1.2.3",
     "@iconify-json/simple-icons": "1.2.34",
-    "@nuxt/ui-pro": "1.8.0"
+    "@nuxt/ui-pro": "3.1.2"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "1.4.0",
@@ -25,6 +25,7 @@
     "eslint": "9.27.0",
     "nuxt": "3.17.3",
     "nuxt-single-html": "0.2.0",
+    "tailwindcss": "4.1.7",
     "vue-tsc": "2.2.10"
   },
   "pnpm": {

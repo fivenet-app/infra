@@ -25,7 +25,7 @@ useSeoMeta({
 </script>
 
 <template>
-    <div>
+    <UApp>
         <NuxtLoadingIndicator
             color="repeating-linear-gradient(to right, #55dde0 0%, #34cdfe 50%, #7161ef 100%)"
         />
@@ -37,8 +37,5 @@ useSeoMeta({
         </UMain>
 
         <Footer />
-
-        <UModals />
-        <UNotifications />
-    </div>
+    </UApp>
 </template>

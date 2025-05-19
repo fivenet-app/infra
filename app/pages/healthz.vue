@@ -9,16 +9,16 @@ definePageMeta({
 </script>
 
 <template>
-    <UPageError
+    <UError
         :error="undefined"
         :status="200"
         name="Healthz Endpoint"
         message="Why are you on this page? You shouldn't be here!"
         :clear-button="{
-            label: 'Go to FiveNet Homepage',
+            label: 'Go to the FiveNet Homepage',
             to: 'https://fivenet.app/',
             external: true,
         }"
-        :ui="{ message: 'mx-auto max-w-screen-md' }"
+        :ui="{ message: 'mx-auto max-w-(--breakpoint-md)' }"
     />
 </template>

@@ -19,7 +19,7 @@ useHead({
 
     <UMain>
         <div
-            class="hero absolute inset-0 z-[-1] [mask-image:radial-gradient(100%_100%_at_top,white,transparent)]"
+            class="hero absolute inset-0 z-[-1] mask-[radial-gradient(100%_100%_at_top,white,transparent)]"
         />
 
         <UContainer>

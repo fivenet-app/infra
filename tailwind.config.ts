@@ -1,11 +1,11 @@
 import type { Config } from 'tailwindcss';
-import { fontFamily } from 'tailwindcss/defaultTheme';
+import { default as defaultTheme } from 'tailwindcss/defaultTheme';
 
 export default <Partial<Config>>{
     theme: {
         extend: {
             fontFamily: {
-                sans: ['DM Sans', 'DM Sans fallback', ...fontFamily.sans],
+                sans: ['DM Sans', 'DM Sans fallback', ...defaultTheme.fontFamily.sans],
             },
             colors: {
                 malibu: {
@@ -26,6 +26,6 @@ export default <Partial<Config>>{
     },
     safelist: [
         'mx-auto',
-        'max-w-screen-md',
+        'max-w-(--breakpoint-md)',
     ],
 };

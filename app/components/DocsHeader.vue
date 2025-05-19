@@ -1,6 +1,6 @@
 <template>
     <UHeader>
-        <template #logo>
+        <template #left>
             <ULink class="inline-flex w-full items-center gap-2" to="/">
                 <img src="/favicon.png" class="size-10" />
 
