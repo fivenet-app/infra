@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@iconify-json/mdi": "1.2.3",
-    "@iconify-json/simple-icons": "1.2.52",
-    "@nuxt/ui-pro": "3.3.4"
+    "@iconify-json/simple-icons": "1.2.53",
+    "@nuxt/ui-pro": "3.3.5"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "1.9.0",
@@ -26,7 +26,7 @@
     "nuxt": "4.1.2",
     "nuxt-single-html": "0.2.0",
     "tailwindcss": "4.1.13",
-    "vue-tsc": "3.0.8"
+    "vue-tsc": "3.1.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
