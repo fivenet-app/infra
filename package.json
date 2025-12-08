@@ -26,7 +26,7 @@
     "nuxt": "4.2.1",
     "nuxt-single-html": "0.2.0",
     "tailwindcss": "4.1.17",
-    "vue-tsc": "3.1.5"
+    "vue-tsc": "3.1.7"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
