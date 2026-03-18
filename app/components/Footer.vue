@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import Logo from "./Logo.vue";
+
 const year = new Date().getFullYear();
 
 const items: NavigationMenuItem[] = [
@@ -14,12 +16,7 @@ const items: NavigationMenuItem[] = [
 <template>
     <UFooter :items="items">
         <template #left>
-            <img
-                src="/favicon.png"
-                alt="FiveNet Logo"
-                title="FiveNet"
-                class="mr-1 h-auto w-8"
-            />
+            <Logo class="mr-1 h-auto w-8" />
 
             <span>Copyright © {{ year }} Galexrt All rights reserved.</span>
         </template>

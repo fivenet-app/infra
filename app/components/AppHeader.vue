@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Logo from "./Logo.vue";
+
 const items: NavigationMenuItem[] = [
     {
         label: "FiveNet Homepage",
@@ -13,7 +15,7 @@ const items: NavigationMenuItem[] = [
     <UHeader :links="links">
         <template #title>
             <ULink class="inline-flex w-full items-center gap-2" to="/">
-                <img src="/favicon.png" class="size-10" />
+                <Logo class="size-10" />
 
                 <span
                     class="truncate font-semibold text-neutral-900 dark:text-white"
