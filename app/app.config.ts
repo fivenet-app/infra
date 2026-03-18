@@ -7,8 +7,8 @@ export default defineAppConfig({
 
         footer: {
             bottom: {
-                left: "text-sm text-gray-500 dark:text-gray-400",
-                wrapper: "border-t border-gray-200 dark:border-gray-800",
+                left: "text-sm text-neutral-500 dark:text-neutral-400",
+                wrapper: "border-t border-neutral-200 dark:border-neutral-800",
             },
         },
 

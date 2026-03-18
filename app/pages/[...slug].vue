@@ -16,12 +16,12 @@ const status = 503;
             statusMessage: 'Not Found or Service Unavailable',
             message: message,
         }"
-        redirect="https://fivenet.app/"
         :clear="{
             color: 'neutral',
             size: 'xl',
             icon: 'i-mdi-home',
             label: 'Go to the FiveNet Homepage',
+            to: 'https://fivenet.app/',
             external: true,
         }"
         :ui="{ root: 'mx-auto max-w-(--breakpoint-md)' }"

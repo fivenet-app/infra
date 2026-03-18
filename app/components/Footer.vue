@@ -29,14 +29,14 @@ const items: NavigationMenuItem[] = [
         <template #right>
             <UButton
                 icon="i-simple-icons-github"
-                color="gray"
+                color="neutral"
                 variant="ghost"
                 to="https://github.com/fivenet-app/fivenet"
                 target="_blank"
             />
             <UButton
                 icon="i-simple-icons-discord"
-                color="gray"
+                color="neutral"
                 variant="ghost"
                 to="https://discord.gg/ASRPPr8CeT"
                 target="_blank"

@@ -16,7 +16,7 @@ const items: NavigationMenuItem[] = [
                 <img src="/favicon.png" class="size-10" />
 
                 <span
-                    class="truncate font-semibold text-gray-900 dark:text-white"
+                    class="truncate font-semibold text-neutral-900 dark:text-white"
                     >FiveNet</span
                 >
             </ULink>

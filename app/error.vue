@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { NuxtError } from "#app";
-import DocsHeader from "./components/DocsHeader.vue";
+import AppHeader from "./components/AppHeader.vue";
 
 useSeoMeta({
     title: "Page not found",
@@ -25,7 +25,7 @@ const router = useRouter();
 
 <template>
     <div>
-        <DocsHeader />
+        <AppHeader />
 
         <UMain>
             <UContainer>

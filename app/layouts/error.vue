@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import DocsHeader from "~/components/DocsHeader.vue";
+import AppHeader from "~/components/AppHeader.vue";
 import "~/assets/css/herofull-pattern.css";
 
 useSeoMeta({
@@ -15,7 +15,7 @@ useHead({
 </script>
 
 <template>
-    <DocsHeader />
+    <AppHeader />
 
     <UMain>
         <div
