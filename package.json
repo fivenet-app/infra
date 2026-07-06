@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@iconify-json/mdi": "1.2.3",
-    "@iconify-json/simple-icons": "1.2.87",
+    "@iconify-json/simple-icons": "1.2.88",
     "@nuxt/ui-pro": "3.3.7"
   },
   "devDependencies": {
@@ -21,12 +21,12 @@
     "@nuxt/fonts": "0.14.0",
     "@nuxt/image": "2.0.0",
     "@nuxtjs/fontaine": "0.5.0",
-    "@nuxtjs/mdc": "0.22.0",
+    "@nuxtjs/mdc": "0.22.1",
     "eslint": "10.6.0",
     "nuxt": "4.4.8",
     "nuxt-single-html": "0.2.0",
-    "tailwindcss": "4.3.1",
-    "vue-tsc": "3.3.5"
+    "tailwindcss": "4.3.2",
+    "vue-tsc": "3.3.6"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
