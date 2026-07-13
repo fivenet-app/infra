@@ -23,5 +23,7 @@ logs
 .env.*
 !.env.example
 
+.direnv/
+
 # VSC
 .history
