@@ -1,4 +1,4 @@
-name: Test Code
+name: Test and Publish Site
 
 on:
   push:
@@ -13,6 +13,10 @@ on:
 jobs:
   node-tests:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v7
 
@@ -40,8 +44,17 @@ jobs:
       - name: Install JS dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build site
-        env:
-          NUXT_UI_PRO_LICENSE: "${{ secrets.NUXT_UI_PRO_LICENSE }}"
+      - name: Build/Generate site
         run: |
-          pnpm build
+          pnpm run generate
+
+      - name: Generate static site
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: pnpm generate
+
+      - name: Deploy
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./.output/public/
