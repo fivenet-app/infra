@@ -1,0 +1,11 @@
+allowBuilds:
+  '@parcel/watcher': false
+  '@tailwindcss/oxide': true
+  esbuild: true
+  sharp: true
+  unrs-resolver: true
+  vue-demi: true
+
+shamefullyHoist: true
+
+minimumReleaseAge: 960 # 16 hours in minutes

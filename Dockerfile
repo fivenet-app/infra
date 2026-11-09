@@ -10,8 +10,7 @@ COPY . ./
 RUN rm -rf ./.nuxt/ && \
     apk add --no-cache git && \
     corepack enable && \
-    corepack prepare pnpm@latest --activate && \
-    pnpm install && \
+    pnpm install --frozen-lockfile && \
     pnpm run generate
 
 # Final Image

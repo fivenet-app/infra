@@ -12,5 +12,9 @@
       "automerge": true
     }
   ],
-  "platformAutomerge": true
+  "platformAutomerge": true,
+  "nix": {
+    "enabled": true
+  },
+  "minimumReleaseAge": "16 hours"
 }

@@ -1,6 +1,6 @@
 # Based upon https://github.com/the-nix-way/dev-templates
 {
-  description = "Basic flake for FiveNet docs development";
+  description = "Basic flake for FiveNet infra page development";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=release-26.05";
@@ -23,8 +23,8 @@
         default = pkgs.mkShell {
           packages = with pkgs; [
             # NodeJS stuff
-            nodejs_22
-            pnpm_10
+            nodejs_26
+            pnpm_12
 
             # Utilities
             ripgrep
