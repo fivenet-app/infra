@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # Page Build
-FROM docker.io/library/node:24.1.0-alpine3.20 AS nodebuilder
+FROM docker.io/library/node:26-alpine AS nodebuilder
 
 WORKDIR /app
 
@@ -9,7 +9,9 @@ COPY . ./
 
 RUN rm -rf ./.nuxt/ && \
     apk add --no-cache git && \
+    npm install -g corepack && \
     corepack enable && \
+    corepack install && \
     pnpm install --frozen-lockfile && \
     pnpm run generate
 
