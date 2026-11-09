@@ -4,7 +4,7 @@ export default defineNuxtConfig({
 
     ssr: false,
 
-    modules: ['@nuxt/ui-pro', '@nuxt/fonts', '@nuxtjs/fontaine', '@nuxtjs/fontaine', 'nuxt-single-html', '@nuxtjs/mdc'],
+    modules: ['@nuxt/ui-pro', '@nuxt/fonts', '@nuxtjs/fontaine', 'nuxt-single-html', '@nuxtjs/mdc'],
 
     future: {
         compatibilityVersion: 4,
@@ -13,6 +13,15 @@ export default defineNuxtConfig({
     compatibilityDate: '2024-07-05',
 
     css: ['~/assets/css/main.css'],
+
+    // Vite 8 defaults to Lightning CSS for production minification. Its parser
+    // currently rejects the CSS emitted by Nuxt UI's Tailwind layer. Keep CSS
+    // minification enabled, but use esbuild's compatible minifier instead.
+    vite: {
+        build: {
+            cssMinify: 'esbuild',
+        },
+    },
 
     icon: {
         collections: ['mdi', 'simple-icons'],
