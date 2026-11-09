@@ -25,7 +25,19 @@ export default defineNuxtConfig({
 
     icon: {
         collections: ['mdi', 'simple-icons'],
+        provider: 'iconify',
         serverBundle: 'local',
+        fallbackToApi: false,
+        clientBundle: {
+            scan: true,
+            icons: [
+                'mdi:home',
+                'mdi:menu',
+                'mdi:moon-waning-crescent',
+                'mdi:monitor',
+                'mdi:white-balance-sunny',
+            ],
+        },
     },
 
     fonts: {
