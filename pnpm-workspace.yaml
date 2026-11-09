@@ -8,4 +8,4 @@ allowBuilds:
 
 shamefullyHoist: true
 
-minimumReleaseAge: 960 # 16 hours in minutes
+minimumReleaseAge: 0 # was 16 hours in minutes
