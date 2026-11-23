@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # Page Build
-FROM docker.io/library/node:26-alpine AS nodebuilder
+FROM docker.io/library/node:26.13.1-alpine AS nodebuilder
 
 WORKDIR /app
 
